@@ -30,7 +30,7 @@ letras_erradas: Uma lista que armazena as letras que o jogador tentou, mas não 
 
 Como Jogar
 
-Execute o código com python main.py.
+Execute o código com python .py.
 O jogo vai exibir uma palavra mascarada, e você deve digitar uma letra de cada vez.
 Se acertar uma letra, ela será revelada. Se errar, a forca vai sendo desenhada.
 O jogo termina quando você adivinhar a palavra ou cometer 6 erros.
@@ -56,7 +56,7 @@ Este é um jogo simples da forca em Python, onde o objetivo é adivinhar uma pal
 - **`imprimir_palavra(letras_palavra)`**:
   Exibe a palavra com as letras descobertas e as letras ainda ocultas (representadas por "_"). A função recebe a lista `letras_palavra`, que contém as letras corretas adivinhadas até o momento.
 
-- **`desenhar_forca(tentativas)`**:
+- **`desenhar_forca(tentativa)`**:
   Desenha a forca com base no número de tentativas erradas feitas pelo jogador. A cada erro, o desenho da forca é atualizado, com até 6 erros permitidos antes do jogador perder.
 
 ### Variáveis
