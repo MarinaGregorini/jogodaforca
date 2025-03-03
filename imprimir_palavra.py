@@ -1,7 +1,7 @@
 def imprimir_palavra(letras_palavra, input_letra=None):
-    impressao_passada = []
+    global impressao_passada
     if input_letra == None:
-        if not impressao_passada:
+        if impressao_passada == None:
             for letra in letras_palavra:
                 print("_", end=" ")
         else:
@@ -10,7 +10,10 @@ def imprimir_palavra(letras_palavra, input_letra=None):
     else:
         for letra in letras_palavra:
             if letra == input_letra:
+                impressao_passada.append(letra)
                 print(letra, end=" ")
-            else:
+            elif letra != input_letra:
+                impressao_passada.append("_")
                 print("_", end=" ")
+        print(impressao_passada)
                 
