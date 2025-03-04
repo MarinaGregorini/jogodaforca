@@ -44,7 +44,7 @@ Este é um jogo da forca em Python, onde o objetivo é adivinhar uma palavra ant
 
 ## Como Jogar
 
-1. Execute o código com `python .py`
+1. Execute o código com `jogo_da_forca.py`
 2. O jogo vai exibir uma palavra mascarada, e você deve digitar uma letra de cada vez.
 3. Se acertar uma letra, ela será revelada. Se errar, a forca vai sendo desenhada.
 4. O jogo termina quando você adivinhar a palavra ou cometer 6 erros.
