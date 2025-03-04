@@ -1,7 +1,7 @@
 from imprimir_palavra import imprimir_palavra
-from verificarpalavra import escolher_letra, verificar_letra
-from listadepalavras import escolher_palavra
-from desenharforca import desenhar_forca
+from verificar_palavra import escolher_letra, verificar_letra
+from escolher_palavra import escolher_palavra
+from desenhar_forca import desenhar_forca
 
 print("Jogo da forca.")
 
