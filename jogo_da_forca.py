@@ -1,5 +1,5 @@
 from imprimir_palavra import imprimir_palavra
-from forca import escolher_letra, verificar_letra
+from verificarpalavra import escolher_letra, verificar_letra
 from listadepalavras import escolher_palavra
 from desenharforca import desenhar_forca
 
